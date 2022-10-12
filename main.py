@@ -9,7 +9,7 @@ class Game:
         pygame.display.set_caption('Huy Land')
         self.clock = pygame.time.Clock()
         self.level = Level()
-
+#change
     def run(self):
         while True:
             for event in pygame.event.get():
